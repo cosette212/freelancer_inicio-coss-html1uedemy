@@ -19,4 +19,15 @@ body{
 
 .titulo span{
     font-size: 2rem;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+}
+
+.contenedor{
+    width: 120rem;
+}
+.navegacion-principal{
+    background-color: var(--secundario);
 }
