@@ -49,3 +49,7 @@ body{
     background-color: var(--primario);
     color: var(--oscuro);
 }
+
+@media (min-width: 480px) {
+    
+}
