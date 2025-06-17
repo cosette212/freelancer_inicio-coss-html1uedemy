@@ -137,41 +137,44 @@
     <p>Maecenas sodales, nisi et fermentum sollicitudin, ex quam semper eros, eget feugiat elit lacus eu tortor. </p>
     </section>
     </div> <!-- este es el cierre de la clase de servicios-->
-    </main>
 
     <section>
     <h2>Contacto</h2>
     </section>
 
-    <form>
+    <form class="formulario">
      <fieldset>
       <legend>Contáctame llenando todos los campos</legend>
 
-      <div>
+     <div class="contenedor-campos"> 
+      <div class="campo">
       <label>Nombre</label>
-      <input type="text" placeholder="Tu Nombre">
+      <input class="input-text" type="text" placeholder="Tu Nombre">
       </div>
 
-      <div>
+      <div class="campo">
       <label>Teléfono</label>
-      <input type="tel" placeholder="Tu Teléfono">
+      <input class="input-text" type="tel" placeholder="Tu Teléfono">
       </div>
 
-      <div>
+      <div class="campo">
       <label>Correo</label>
-      <input type="email" placeholder="Tu Email">
+      <input class="input-text" type="email" placeholder="Tu Email">
       </div>
 
-      <div>
+      <div class="campo">
       <label>Mensaje</label>
-      <textarea></textarea>
+      <textarea class="input-text"></textarea>
       </div>
+     </div> <!-- .contenedor-campos -->
 
-      <div>
-      <input type="submit" value="Enviar">
+      <div class="alinear-derecha flex">
+       <input class="boton w-sm-100" type="submit" value="Enviar">
       </div>
      </fieldset> 
     </form>
+
+  </main>
 
     <footer>
     <p>Todos los derechos reservados. Regina Cosette Freelancer</p>
